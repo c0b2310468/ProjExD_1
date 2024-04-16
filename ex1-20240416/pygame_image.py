@@ -9,6 +9,7 @@ def main():
     pg.display.set_caption("はばたけ！こうかとん")
     screen = pg.display.set_mode((800, 600))
     clock  = pg.time.Clock()
+    bg_img = pg.image.load("fig/3.png")
     bg_img = pg.image.load("fig/pg_bg.jpg")
     tmr = 0
     while True:
